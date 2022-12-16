@@ -1,8 +1,11 @@
-@font-face {
+/*  @font-face {
     font-family: sans-serif;
-     src: url("assets/fonts/OpenSans-Regular.ttf");
+ /*     src: url("assets/fonts/OpenSans-Regular.ttf"); 
+     src: url("assets/fonts/OpenSans-ExtraBold.ttf");
+      src: url(assets/fonts/Orbitron-Medium.ttf);     
    }
-
+  */ 
+ 
    * {
     box-sizing: border-box;
   }
@@ -14,7 +17,8 @@
   }
   
   .header {
-    background-color: #e0ebf3;
+    /* background-color: #e0ebf3; */
+    background-color: #2779a7;
   }
 
   .nav-list {
@@ -31,15 +35,16 @@
     font-size: 28px;
     font-weight: 300;
     line-height: 60px;
-    color: #031757; 
+    /* color: #031757;  */
+    color: #f3f5fa;
+    
   }
 
   .nav-link:hover{
-    color: #2046c4; /* Цвет текста */
-   
+    color: #eff0ba;
   }
   
-  .nav-link::after {
+/*   .nav-link::after {
     content: "";
     position: absolute;
     left: 12px;
@@ -50,7 +55,7 @@
     opacity: 0;
     transition: .5s;
   }
-  
+ */  
  /* .nav-link:hover::after {
     opacity: 1;
     animation-name: slidein;

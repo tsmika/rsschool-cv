@@ -5,4 +5,56 @@
 
    * {
     box-sizing: border-box;
-  }   
+  }
+  
+  .container {
+    max-width: 1440px;
+    margin: 0 auto;
+    min-height: 50px;
+  }
+  
+  .header {
+    background-color: #e0ebf3;
+  }
+
+  .nav-list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    list-style: none;
+  }
+  
+  .nav-link {
+    position: relative;
+    padding: 0 12px;
+    text-decoration: none;
+    font-size: 28px;
+    font-weight: 300;
+    line-height: 60px;
+    color: #031757; 
+  }
+
+  .nav-link:hover{
+    color: #2046c4; /* Цвет текста */
+   
+  }
+  
+  .nav-link::after {
+    content: "";
+    position: absolute;
+    left: 12px;
+    bottom: -5px;
+    width: calc(100% - 24px);
+    height: 2px;
+    background-color: #fff;
+    opacity: 0;
+    transition: .5s;
+  }
+  
+ /* .nav-link:hover::after {
+    opacity: 1;
+    animation-name: slidein;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
+  }
+  */

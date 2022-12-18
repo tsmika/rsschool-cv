@@ -1,6 +1,6 @@
 # **Tsikhan Karas**
 
-<img src="images/avatar.jpg">
+<img src="avatar.jpg">
 
 ## **Location: Brest, Belarus**
 

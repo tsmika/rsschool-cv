@@ -16,17 +16,8 @@ html {
   box-sizing: border-box;
 }
 
-.section-profile-img {
-  width: 200px;
-  height: 200px;
-}
-
-.section-profile {
-  display: flex;
-  justify-content: space-around;
-  width: 100%;
-  padding: 50px 30px 35px;
-  border-bottom: 15px solid #c9cfdd;
+.main {
+  margin-bottom: auto;
 }
 
 .container {
@@ -36,7 +27,7 @@ html {
 }
 
 .header {
-  background-color: #2779a7;
+  background-color: #6d90aa;
 }
 
 .nav-list {
@@ -55,12 +46,12 @@ html {
   font-size: 20px;
   font-weight: 300;
   line-height: 40px;
-  color: #f3f5fa;
-  transition: .5s;
+  color: #e9ebf1;
+  transition: .2s;
 }
 
 .nav-link:hover {
-  color: #eff0ba;
+  color: #d1cdad;
 }
 
 body {
@@ -68,7 +59,7 @@ body {
   font-size: 18px;
   font-weight: 400;
   line-height: 1.5;
-  color: #174661;
+  color: #04251e;
   min-height: 100vh;
   margin: 0;
   padding: 0;
@@ -80,22 +71,111 @@ body {
 .main-container {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .section {
+  width: calc(50% - 20px);
+  padding: 10px;
+  padding-bottom: 35px;
+  border-bottom: 3px solid #c9cfdd;
+}
+
+.section-last {
   width: 50%;
+  padding: 10px;
+  padding-bottom: 35px;
+}
+
+.section-profile-img {
+  width: 200px;
+  height: 200px;
+}
+
+.section-profile {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+  padding: 50px 30px 35px;
+  border-bottom: 15px solid #c9cfdd;
 }
 
 .section-title {
   font-size: 20px;
+  font-weight: 300;
+  text-transform: uppercase;
+  letter-spacing: 5px;
+  color: #04348b;
+}
+
+.section-profile-title {
+  font-size: 35px;
   font-weight: 400;
   text-transform: uppercase;
   letter-spacing: 5px;
+  color: #04348b;
+}
+
+.section-subtitle {
+  margin-top: 20px;
+  color: #04348b;
+  line-height: 20px;
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 5px;
+}
+
+.section-item {
+  position: relative;
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+}
+
+.section-item span {
   color: #0a5a88;
+}
+
+.section-item a {
+  text-decoration: none;
+  color: #0a5a88;
+  transition: color 0.3s;
+}
+
+.section-item a:hover {
+  color: #76a385;
+}
+
+.footer {
+  background-color: #6d90aa;
+  padding: 20px;
+}
+
+.footer-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+  color: #e9ebf1;
+}
+
+.github {
+  color: #e9ebf1;
+  text-decoration: none;
+  line-height: 45px;
+}
+
+.rss {
+  width: 121px;
+  height: 45px;
+  background-image: url("./assets/svg/rs_school_js.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 @media (max-width: 768px) {
   .section {
     width: 100%;
   }
+
 }

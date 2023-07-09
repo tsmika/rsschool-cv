@@ -32,7 +32,7 @@ html {
 
 .nav-list {
   display: flex;
-  justify-content: flex-end;
+  justify-content: center;
   align-items: center;
   list-style: none;
   font-family: Orbitron;

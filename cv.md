@@ -11,15 +11,7 @@
 
 ## **About myself:** 
  
-I graduated from Belarusian National Technical University as economist.
-Nevertheless I have been interested in Information Technologies since my school years.
-It’s definitely a challenging thing to obtain a new profession,
-but I hope that my wish to learn make me a good fit for the job as a software developer.
-I have been studying Java language and Java backend software development for about one year. 
-The labour market situation in my country is not the best at the moment, so it seems
-that it will take some time to make things better. As for me, it meens that it's a good time
-to invest free time in getting familiar with frontend technologies. I hope that knowing 
-both backend and frontend of web-development will help me to be a better specialist regardless of my future choise of speciality.
+I graduated from Belarusian National Technical University as an economist. However, I've been interested in Information Technologies since my school years. Obtaining a new profession is definitely challenging, but I believe that my eagerness to learn makes me a good fit for the job as a software developer. I've been studying Java language and Java backend software development for about a year. The labor market situation in my country is not the best at the moment, so it seems that it will take some time to improve. For me, this means that it's a good time to invest my free time in getting familiar with frontend technologies. I hope that knowing both backend and frontend of web development will help me become a better specialist, regardless of my future choice of specialty.
 
 ## **I am familiar with**
   * **Languages:**
